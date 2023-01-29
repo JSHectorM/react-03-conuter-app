@@ -6,7 +6,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-  
-    <CounterApp index={15} />
+    <div className="container">
+      <CounterApp index={15} />
+    </div>
   </React.StrictMode>,
 )
